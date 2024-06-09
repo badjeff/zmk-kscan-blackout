@@ -1,0 +1,10 @@
+description: |
+  Allows KSCAN devices into one virtual device
+
+compatible: "zmk,kscan-blackout"
+
+properties:
+  label:
+    type: string
+    required: false
+    deprecated: true
